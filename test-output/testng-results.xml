@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[the element is present in the screen]]>
+    </line>
+    <line>
+      <![CDATA[the element is present in the screen]]>
+    </line>
+    <line>
+      <![CDATA[the element is present in the screen]]>
+    </line>
+    <line>
+      <![CDATA[the element is present in the screen]]>
+    </line>
+    <line>
+      <![CDATA[the element is present in the screen]]>
+    </line>
+    <line>
+      <![CDATA[the element is present in the screen]]>
+    </line>
+    <line>
+      <![CDATA[the element is not present in the screen]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-29T11:41:04Z" name="DemoSuite" finished-at="2022-04-29T11:41:22Z" duration-ms="17805">
+    <groups>
+    </groups>
+    <test started-at="2022-04-29T11:41:04Z" name="Test" finished-at="2022-04-29T11:41:22Z" duration-ms="17805">
+      <class name="com.expoplatdemo.tests.TC0010VerifyForDeleteTaskForAllListingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expoplatdemo.tests.TC0010VerifyForDeleteTaskForAllListingTest@5552768b]" started-at="2022-04-29T11:41:04Z" name="setUp" finished-at="2022-04-29T11:41:08Z" duration-ms="3217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expoplatdemo.tests.TC001VerifyLaunchToDoListAppUIElementsTest@87a85e1]" started-at="2022-04-29T11:41:08Z" name="setUp" finished-at="2022-04-29T11:41:10Z" duration-ms="2290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.expoplatdemo.tests.TC002VerifyForCreatingTaskTest@671a5887]" started-at="2022-04-29T11:41:10Z" name="setUp" finished-at="2022-04-29T11:41:12Z" duration-ms="2523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc0010VerifyForDeleteTaskForAllListingTest(java.lang.String)[pri:0, instance:com.expoplatdemo.tests.TC0010VerifyForDeleteTaskForAllListingTest@5552768b]" started-at="2022-04-29T11:41:15Z" name="tc0010VerifyForDeleteTaskForAllListingTest" data-provider="AllListDelete" finished-at="2022-04-29T11:41:18Z" duration-ms="2822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[the element is not present in the screen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc0010VerifyForDeleteTaskForAllListingTest -->
+        <test-method is-config="true" signature="quiteDriver()[pri:0, instance:com.expoplatdemo.tests.TC0010VerifyForDeleteTaskForAllListingTest@5552768b]" started-at="2022-04-29T11:41:18Z" name="quiteDriver" finished-at="2022-04-29T11:41:19Z" duration-ms="1392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+        <test-method is-config="true" signature="quiteDriver()[pri:0, instance:com.expoplatdemo.tests.TC001VerifyLaunchToDoListAppUIElementsTest@87a85e1]" started-at="2022-04-29T11:41:19Z" name="quiteDriver" finished-at="2022-04-29T11:41:21Z" duration-ms="1599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+        <test-method is-config="true" signature="quiteDriver()[pri:0, instance:com.expoplatdemo.tests.TC002VerifyForCreatingTaskTest@671a5887]" started-at="2022-04-29T11:41:21Z" name="quiteDriver" finished-at="2022-04-29T11:41:22Z" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteDriver -->
+      </class> <!-- com.expoplatdemo.tests.TC0010VerifyForDeleteTaskForAllListingTest -->
+      <class name="com.expoplatdemo.tests.TC001VerifyLaunchToDoListAppUIElementsTest">
+        <test-method signature="tc001VerifyLaunchToDoListAppUIElementsTest()[pri:0, instance:com.expoplatdemo.tests.TC001VerifyLaunchToDoListAppUIElementsTest@87a85e1]" started-at="2022-04-29T11:41:13Z" name="tc001VerifyLaunchToDoListAppUIElementsTest" finished-at="2022-04-29T11:41:13Z" duration-ms="465" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[the element is present in the screen]]>
+            </line>
+            <line>
+              <![CDATA[the element is present in the screen]]>
+            </line>
+            <line>
+              <![CDATA[the element is present in the screen]]>
+            </line>
+            <line>
+              <![CDATA[the element is present in the screen]]>
+            </line>
+            <line>
+              <![CDATA[the element is present in the screen]]>
+            </line>
+            <line>
+              <![CDATA[the element is present in the screen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc001VerifyLaunchToDoListAppUIElementsTest -->
+      </class> <!-- com.expoplatdemo.tests.TC001VerifyLaunchToDoListAppUIElementsTest -->
+      <class name="com.expoplatdemo.tests.TC002VerifyForCreatingTaskTest">
+        <test-method signature="tc002VerifyForCreatingTaskTest(java.lang.String, java.lang.String)[pri:0, instance:com.expoplatdemo.tests.TC002VerifyForCreatingTaskTest@671a5887]" started-at="2022-04-29T11:41:13Z" name="tc002VerifyForCreatingTaskTest" data-provider="CreateTask" finished-at="2022-04-29T11:41:15Z" duration-ms="1853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc002VerifyForCreatingTaskTest -->
+      </class> <!-- com.expoplatdemo.tests.TC002VerifyForCreatingTaskTest -->
+    </test> <!-- Test -->
+  </suite> <!-- DemoSuite -->
+</testng-results>
